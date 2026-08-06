@@ -1,0 +1,15 @@
+{
+  "photos": [
+    { "src": "/images/products/acide.png", "alt": "Acide sulfurique H2SO4 98% ABICOM", "altEn": "ABICOM Sulfuric Acid H2SO4 98%" },
+    { "src": "/images/products/soufre.png", "alt": "Soufre granulaire 99.5% ABICOM", "altEn": "ABICOM Granular Sulfur 99.5%" },
+    { "src": "/images/products/chaux.png", "alt": "Chaux vive / calcaire CaO", "altEn": "Quicklime / Limestone CaO" },
+    { "src": "/images/products/coke.png", "alt": "Coke nuts / coal nuts ABICOM", "altEn": "ABICOM Coke Nuts / Coal Nuts" },
+    { "src": "/images/products/mgo.png", "alt": "Oxyde de magnésium MgO", "altEn": "Magnesium Oxide MgO" },
+    { "src": "/images/products/lances.png", "alt": "Lances thermiques & oxygène", "altEn": "Thermal lances & oxygen" },
+    { "src": "/images/transport.png", "alt": "Transport international ABICOM", "altEn": "ABICOM international transport" }
+  ],
+  "videos": [
+    { "title": "Présentation ABICOM", "titleEn": "ABICOM showcase", "url": "" },
+    { "title": "Logistique & Transport", "titleEn": "Logistics & Transport", "url": "" }
+  ]
+}
