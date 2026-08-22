@@ -73,4 +73,15 @@ export const products: Product[] = [
     availability: "Sur commande",
     image: "/images/products/lances.png",
   },
+  {
+    slug: "sodium-metabisulfite",
+    name: "Sodium Metabisulfite",
+    formula: "SMBS – Na₂S₂O₅",
+    application:
+      "Le Sodium Metabisulfite (SMBS – Na₂S₂O₅) est un réactif chimique largement utilisé dans les procédés métallurgiques et le traitement des minerais. Sous forme de poudre blanche cristalline, il intervient notamment comme agent réducteur dans la lixiviation des minerais de cuivre et de cobalt, contribuant à améliorer la solubilisation de certains composés de cobalt. Il peut également être utilisé dans certains circuits de flottation et de traitement des effluents industriels. ABICOM propose du Sodium Metabisulfite destiné aux applications industrielles et minières, disponible selon les spécifications et conditionnements adaptés aux besoins de nos clients.",
+    packaging: "Sacs 25kg / Big Bag",
+    purity: "Qualité industrielle",
+    availability: "Sur commande",
+    image: "/images/products/smbs.jpg",
+  },
 ];
