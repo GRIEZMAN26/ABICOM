@@ -31,7 +31,7 @@ next-env.d.ts
 submissions
 
 # fichiers source/dossiers non nécessaires au site (assets déjà dans public/)
-Images/
+/Images/
 QUOTATION.docx
 QUOTATION.pdf
 IDEA.md

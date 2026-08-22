@@ -11,9 +11,9 @@ export default function ProductCard({ p }: { p: Product }) {
   )}`;
   return (
     <article className="card-hover card flex flex-col border border-gray-light">
-      <div className="mb-4 flex h-40 items-center justify-center overflow-hidden rounded-xl bg-gray-light">
+      <div className="mb-4 flex h-48 items-center justify-center overflow-hidden rounded-xl bg-gray-light">
         {p.image ? (
-          <img src={p.image} alt={p.name} className="h-full w-full object-contain transition group-hover:scale-105" />
+          <img src={p.image} alt={p.name} className="h-full w-full object-cover transition group-hover:scale-105" />
         ) : (
           <span className="font-heading text-xl font-bold text-navy/40">{p.formula}</span>
         )}
