@@ -26,6 +26,11 @@ export const metadata: Metadata = {
     description: "Votre Partenaire Minier 100% Congolais.",
     type: "website",
     locale: "fr_FR",
+    images: ["/images/logo.jpg"],
+  },
+  icons: {
+    icon: "/images/logo.jpg",
+    apple: "/images/logo.jpg",
   },
   robots: { index: true, follow: true },
 };

@@ -6,7 +6,7 @@ export default function Logo({ light = false }: { light?: boolean }) {
       <span className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-xl bg-white shadow-glow">
         {/* Logo officiel ABICOM */}
         <img
-          src="/images/logo.png"
+          src="/images/logo.jpg"
           alt="ABICOM"
           className="h-9 w-9 object-contain"
         />
