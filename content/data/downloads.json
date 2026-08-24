@@ -8,35 +8,5 @@
     "file": "/pdf/profil-societe-abicom.pdf",
     "size": "PDF · 599 Ko",
     "date": "2026-08-22"
-  },
-  {
-    "slug": "catalogue-abicom-2026",
-    "title": "Catalogue Produits ABICOM 2026",
-    "titleEn": "ABICOM Products Catalogue 2026",
-    "description": "Catalogue complet des produits chimiques miniers (acide, soufre, chaux, coke, MgO, lances).",
-    "descriptionEn": "Full catalogue of mining chemicals (acid, sulfur, lime, coke, MgO, lances).",
-    "file": "/pdf/catalogue-abicom-2026.pdf",
-    "size": "PDF · 2.4 Mo",
-    "date": "2026-07-01"
-  },
-  {
-    "slug": "brochure-abicom",
-    "title": "Brochure institutionnelle ABICOM",
-    "titleEn": "ABICOM Corporate Brochure",
-    "description": "Présentation de l'entreprise, valeurs, services et zone d'intervention.",
-    "descriptionEn": "Company presentation, values, services and coverage area.",
-    "file": "/pdf/brochure-abicom.pdf",
-    "size": "PDF · 1.1 Mo",
-    "date": "2026-06-10"
-  },
-  {
-    "slug": "fiche-acide-sulfurique",
-    "title": "Fiche technique — Acide Sulfurique H2SO4 98%",
-    "titleEn": "Datasheet — Sulfuric Acid H2SO4 98%",
-    "description": "Spécifications, conditionnement et consignes de sécurité (FDS).",
-    "descriptionEn": "Specs, packaging and safety instructions (SDS).",
-    "file": "/pdf/fiche-acide-sulfurique.pdf",
-    "size": "PDF · 480 Ko",
-    "date": "2026-07-15"
   }
 ]
