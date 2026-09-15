@@ -24,7 +24,7 @@ export default function AboutPage() {
         <div className="container-px grid items-center gap-10 lg:grid-cols-2">
           <Reveal>
             <div className="overflow-hidden rounded-xl2 shadow-soft">
-              <img src="/images/apropos.webp" alt="ABICOM" className="h-full w-full object-cover" />
+              <img src="/images/à propos.jpg" alt="ABICOM" className="h-full w-full object-cover" />
             </div>
           </Reveal>
           <Reveal delay={120}>
