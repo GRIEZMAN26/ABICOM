@@ -51,22 +51,32 @@ export default function AboutPage() {
       <section className="section bg-gray-light">
         <div className="container-px">
           <h2 className="section-title text-center">{t.about.legalTitle}</h2>
-          <div className="mx-auto mt-8 grid max-w-3xl gap-4 sm:grid-cols-3">
-            <div className="card-hover card border border-gray-light text-center">
-              <div className="text-xs font-semibold uppercase text-text-gray">RCCM</div>
-              <div className="mt-1 font-semibold text-navy">{site.legal.rccm}</div>
+          <div className="mx-auto mt-8 flex flex-col items-center gap-8 md:flex-row md:items-start md:justify-center">
+            <div className="flex flex-col items-center text-center">
+              <img
+                src="/images/CEO.png"
+                alt={site.contact.responsable}
+                className="h-48 w-48 rounded-full object-cover shadow-soft ring-4 ring-orange/20"
+              />
+              <p className="mt-4 font-heading text-lg font-bold text-navy">{site.contact.responsable}</p>
+              <p className="text-sm text-orange">{site.contact.role}</p>
             </div>
-            <div className="card-hover card border border-gray-light text-center">
-              <div className="text-xs font-semibold uppercase text-text-gray">NIF</div>
-              <div className="mt-1 font-semibold text-navy">{site.legal.nif}</div>
-            </div>
-            <div className="card-hover card border border-gray-light text-center">
-              <div className="text-xs font-semibold uppercase text-text-gray">TVA</div>
-              <div className="mt-1 font-semibold text-navy">{site.legal.tva}</div>
+            <div className="grid max-w-xl gap-4 sm:grid-cols-3">
+              <div className="card-hover card border border-gray-light text-center">
+                <div className="text-xs font-semibold uppercase text-text-gray">RCCM</div>
+                <div className="mt-1 font-semibold text-navy">{site.legal.rccm}</div>
+              </div>
+              <div className="card-hover card border border-gray-light text-center">
+                <div className="text-xs font-semibold uppercase text-text-gray">NIF</div>
+                <div className="mt-1 font-semibold text-navy">{site.legal.nif}</div>
+              </div>
+              <div className="card-hover card border border-gray-light text-center">
+                <div className="text-xs font-semibold uppercase text-text-gray">TVA</div>
+                <div className="mt-1 font-semibold text-navy">{site.legal.tva}</div>
+              </div>
             </div>
           </div>
           <p className="mt-6 text-center text-sm text-text-gray">📍 {site.contact.address}</p>
-          <p className="mt-2 text-center text-sm text-text-gray">👤 {site.contact.responsable} — {site.contact.role}</p>
         </div>
       </section>
 
