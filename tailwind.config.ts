@@ -12,6 +12,10 @@ const config: Config = {
         "navy-light": "#11294A",
         orange: "#E87A20",
         "orange-light": "#F5973D",
+        // Accent botanique réservé au département La Jardinière
+        jardin: "#2F7D5D",
+        "jardin-dark": "#1F5C43",
+        "jardin-light": "#EAF4EF",
         "gray-light": "#F4F6F9",
         "text-gray": "#5B6573",
       },

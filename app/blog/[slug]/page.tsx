@@ -1,9 +1,6 @@
-import { notFound } from "next/navigation";
-import BlogArticleClient from "@/components/BlogArticleClient";
-import { getPost } from "@/lib/posts";
+import { redirect } from "next/navigation";
 
-export default async function BlogArticle({ params }: { params: { slug: string } }) {
-  const post = await getPost(params.slug);
-  if (!post) notFound();
-  return <BlogArticleClient post={post} />;
+/** Les anciens articles Blog renvoient vers La Jardinière. */
+export default function BlogArticleRedirect() {
+  redirect("/la-jardiniere");
 }

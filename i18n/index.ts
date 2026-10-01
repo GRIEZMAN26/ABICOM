@@ -5,6 +5,7 @@ export const fr = {
     products: "Produits",
     services: "Services",
     blog: "Blog",
+    jardiniere: "La Jardinière",
     gallery: "Galerie",
     downloads: "Téléchargements",
     contact: "Contact",
@@ -124,6 +125,8 @@ export const fr = {
     contact: "Contact",
     legal: "Informations légales",
     rights: "Tous droits réservés.",
+    jardiniereDesc:
+      "Département spécialisé en pépinière, jardinerie et aménagement paysager.",
   },
   admin: {
     title: "Administration",
@@ -151,6 +154,7 @@ export const en = {
     products: "Products",
     services: "Services",
     blog: "Blog",
+    jardiniere: "La Jardinière",
     gallery: "Gallery",
     downloads: "Downloads",
     contact: "Contact",
@@ -270,6 +274,7 @@ export const en = {
     contact: "Contact",
     legal: "Legal information",
     rights: "All rights reserved.",
+    jardiniereDesc: "Department specialised in nursery, gardening and landscaping.",
   },
   admin: {
     title: "Administration",

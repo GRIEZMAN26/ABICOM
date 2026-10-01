@@ -11,7 +11,7 @@ const links = (t: any) => [
   { href: "/a-propos", label: t.nav.about },
   { href: "/produits", label: t.nav.products },
   { href: "/services", label: t.nav.services },
-  { href: "/blog", label: t.nav.blog },
+  { href: "/la-jardiniere", label: t.nav.jardiniere },
   { href: "/galerie", label: t.nav.gallery },
   { href: "/telechargements", label: t.nav.downloads },
   { href: "/contact", label: t.nav.contact },

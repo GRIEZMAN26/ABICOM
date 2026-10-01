@@ -1,7 +1,6 @@
-import BlogListClient from "@/components/BlogListClient";
-import { getPosts } from "@/lib/posts";
+import { redirect } from "next/navigation";
 
-export default async function BlogPage() {
-  const posts = await getPosts();
-  return <BlogListClient posts={posts} />;
+/** L'ancienne page Blog est remplacée par le département La Jardinière. */
+export default function BlogRedirect() {
+  redirect("/la-jardiniere");
 }

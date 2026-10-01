@@ -9,7 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/a-propos",
     "/produits",
     "/services",
-    "/blog",
+    "/la-jardiniere",
     "/galerie",
     "/telechargements",
     "/contact",

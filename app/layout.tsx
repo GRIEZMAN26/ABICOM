@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.abicom.cd"),
   title: {
     default: "ABICOM SARL — Fourniture de produits chimiques miniers | RDC",
     template: "%s | ABICOM SARL",

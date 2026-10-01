@@ -23,11 +23,11 @@ function SocialIcon({ icon }: { icon: string }) {
 }
 
 export default function Footer() {
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
   const y = new Date().getFullYear();
   return (
     <footer className="gradient-navy text-white/80">
-      <div className="container-px grid gap-10 py-14 md:grid-cols-3">
+      <div className="container-px grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <Logo light />
           <p className="mt-4 max-w-xs text-sm leading-relaxed">{t.footer.about}</p>
@@ -52,7 +52,7 @@ export default function Footer() {
           <ul className="mt-4 space-y-2 text-sm">
             <li><a className="hover:text-orange" href="/produits">→ {t.nav.products}</a></li>
             <li><a className="hover:text-orange" href="/services">→ {t.nav.services}</a></li>
-            <li><a className="hover:text-orange" href="/blog">→ {t.nav.blog}</a></li>
+            <li><a className="hover:text-orange" href="/la-jardiniere">→ {t.nav.jardiniere}</a></li>
             <li><a className="hover:text-orange" href="/galerie">→ {t.nav.gallery}</a></li>
             <li><a className="hover:text-orange" href="/telechargements">→ {t.nav.downloads}</a></li>
             <li><a className="hover:text-orange" href="/contact">→ {t.nav.contact}</a></li>
@@ -60,7 +60,15 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="font-heading text-white">{t.footer.contact}</h4>
+          <h4 className="font-heading text-white">{t.nav.jardiniere}</h4>
+          <p className="mt-4 text-sm leading-relaxed text-white/70">{t.footer.jardiniereDesc}</p>
+          <ul className="mt-4 space-y-2 text-sm">
+            <li><a className="hover:text-orange" href="/la-jardiniere#entreprises">→ {lang === "en" ? "Companies" : "Entreprises"}</a></li>
+            <li><a className="hover:text-orange" href="/la-jardiniere#particuliers">→ {lang === "en" ? "Individuals" : "Particuliers"}</a></li>
+            <li><a className="hover:text-orange" href="/la-jardiniere#galerie">→ {t.gallery.title}</a></li>
+          </ul>
+
+          <h4 className="mt-8 font-heading text-white">{t.footer.contact}</h4>
           <ul className="mt-4 space-y-2 text-sm">
             <li>📍 {site.contact.address}</li>
             <li>📞 <a className="hover:text-orange" href={site.contact.phoneHref}>{site.contact.phone}</a></li>
