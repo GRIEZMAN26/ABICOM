@@ -51,15 +51,18 @@ export default function Navbar() {
             </Link>
           ))}
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex shrink-0 items-center gap-2 sm:gap-3">
           <LanguageSwitch />
-          <Link href="/contact" className="btn-primary hidden px-5 py-2 text-sm lg:inline-flex">
-            {t.contact.title.split(" ")[0]}
-          </Link>
+          <div className="hidden lg:block">
+            <Link href="/contact" className="btn-primary px-5 py-2 text-sm">
+              {t.contact.title.split(" ")[0]}
+            </Link>
+          </div>
           <button
             aria-label="Menu"
+            aria-expanded={open}
             onClick={() => setOpen(!open)}
-            className="text-white lg:hidden"
+            className="-mr-1 flex h-10 w-10 shrink-0 items-center justify-center text-white lg:hidden"
           >
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               {open ? <path d="M18 6 6 18M6 6l12 12" /> : <path d="M3 6h18M3 12h18M3 18h18" />}
