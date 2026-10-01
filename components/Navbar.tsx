@@ -53,7 +53,7 @@ export default function Navbar() {
         </div>
         <div className="flex items-center gap-3">
           <LanguageSwitch />
-          <Link href="/contact" className="btn-primary hidden px-5 py-2 text-sm sm:inline-flex">
+          <Link href="/contact" className="btn-primary hidden px-5 py-2 text-sm lg:inline-flex">
             {t.contact.title.split(" ")[0]}
           </Link>
           <button
