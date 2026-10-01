@@ -53,7 +53,7 @@ export default function Footer() {
             <li><a className="hover:text-orange" href="/produits">→ {t.nav.products}</a></li>
             <li><a className="hover:text-orange" href="/services">→ {t.nav.services}</a></li>
             <li><a className="hover:text-orange" href="/la-jardiniere">→ {t.nav.jardiniere}</a></li>
-            <li><a className="hover:text-orange" href="/galerie">→ {t.nav.gallery}</a></li>
+            <li><a className="hover:text-orange" href="/visa-assistance">→ {t.nav.visa}</a></li>
             <li><a className="hover:text-orange" href="/telechargements">→ {t.nav.downloads}</a></li>
             <li><a className="hover:text-orange" href="/contact">→ {t.nav.contact}</a></li>
           </ul>

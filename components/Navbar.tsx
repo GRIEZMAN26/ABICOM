@@ -12,7 +12,7 @@ const links = (t: any) => [
   { href: "/produits", label: t.nav.products },
   { href: "/services", label: t.nav.services },
   { href: "/la-jardiniere", label: t.nav.jardiniere },
-  { href: "/galerie", label: t.nav.gallery },
+  { href: "/visa-assistance", label: t.nav.visa },
   { href: "/telechargements", label: t.nav.downloads },
   { href: "/contact", label: t.nav.contact },
 ];
